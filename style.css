@@ -1,0 +1,89 @@
+.myDropdownItemBG {
+  background-image: url('./img/image.jpg');
+  background-size:auto 100%;
+  background-repeat: no-repeat;
+}
+
+.myDropdownItem {
+  width: 200px;
+}
+
+.icon-cl-black {
+  color: black;
+}
+.myHeaderBG {
+  background-color: #9EAFFD;
+}
+
+.myOverlay {
+  position:absolute;
+  left:0;
+  top:0;
+  width:100%;
+  height:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(158,175,253,0.5);
+}
+
+.myOverlay {
+  opacity: 0;
+  transition: 0.2s;
+}
+
+.myOverlay:hover {
+  opacity: 1;
+}
+
+.myShadow {
+  box-shadow: 0px 0px 10px 0px #C0BEBE;
+}
+
+.myJump {
+  box-shadow: 0px 5px 13px -10px black;
+  transition: 0.2s;
+}
+
+.myJump:hover {
+  transform: translate(0px, -5px);
+  box-shadow:  0px 12px 10px -11px black;
+}
+
+.myAnimate {
+  animation-duration: 0.3s;
+  -webkit-animation-duration: 0.3s;
+}
+
+.myScroll {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+
+.myScroll .card {
+  width: 200px;
+  flex: 0 0 auto;
+}
+
+.myBackground {
+  background-image: url("./img/image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.myButtonScroll {
+  width:100%;
+  position: absolute;
+  top: 100px;
+}
+
+.myButtonsOverlay {
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.myParentOverlay:hover .myButtonsOverlay{
+  opacity: 1;
+}
